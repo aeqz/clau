@@ -1,0 +1,10 @@
+{
+  "name": "clau",
+  "description": "A minimalistic password store",
+  "author": "Adrián Enríquez Ballester",
+  "type": "module",
+  "scripts": {
+    "clean": "git clean -dfX"
+  },
+  "devDependencies": {}
+}
