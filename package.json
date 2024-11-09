@@ -9,14 +9,17 @@
     "preview": "vite preview",
     "clean": "git clean -dfX",
     "ts:check": "tsc",
+    "ts:test": "vitest run --dom",
     "prettier:fmt": "prettier . --write"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "happy-dom": "^16.0.1",
     "prettier": "^3.4.2",
     "typescript": "^5.7.2",
     "vite": "^6.0.6",
-    "vite-plugin-favicons-inject": "^2.2.0"
+    "vite-plugin-favicons-inject": "^2.2.0",
+    "vitest": "^2.1.8"
   },
   "dependencies": {
     "modern-normalize": "^3.0.1"
