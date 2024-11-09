@@ -2,6 +2,8 @@
 
 A minimalistic password store or, as a friend properly pointed out, just an encrypted CRUD.
 
+The encryption mechanism is explained in [this module](./assets/typescript/crypto.ts) comments.
+
 ## Development
 
 Requires `Node.js` to be installed. Then:
