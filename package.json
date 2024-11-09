@@ -8,11 +8,13 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "git clean -dfX",
+    "ts:check": "tsc",
     "prettier:fmt": "prettier . --write"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
     "vite": "^6.0.6",
     "vite-plugin-favicons-inject": "^2.2.0"
   },
