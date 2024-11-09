@@ -1,0 +1,24 @@
+.main {
+  height: 100vh;
+  height: 100dvh;
+}
+
+body:has(> .main) {
+  --color-foreground: #b0c8fa;
+  --color-background: #3f3f3f;
+  --color-highlight: #6ba2f5;
+  --color-error: #ff3333;
+  --space-s: 1em;
+  --space-m: 2em;
+  --space-l: 3em;
+  --padding-s: 0.5em;
+  --padding-m: 1em;
+  --padding-l: 2em;
+  --transition: 0.2s;
+  --border-width: 2px;
+  --border-radius-m: 4px;
+  --border-radius-l: 8px;
+
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+}

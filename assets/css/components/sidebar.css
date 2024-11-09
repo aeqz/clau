@@ -1,0 +1,34 @@
+.sidebar {
+  flex: 1;
+  padding: var(--padding-m);
+  border-right: solid;
+  border-right-width: var(--border-width);
+  border-right-color: var(--color-foreground);
+}
+
+.sidebar + * {
+  flex: 3;
+  padding: var(--padding-m);
+}
+
+*:has(> .sidebar) {
+  gap: 0;
+}
+
+.sidebar > *:has(> button) {
+  flex-shrink: 0;
+}
+
+@media (max-width: 840px) {
+  .sidebar {
+    border-right: none;
+  }
+
+  .sidebar[data-secondary] {
+    display: none;
+  }
+
+  .sidebar:not([data-secondary]) + * {
+    display: none;
+  }
+}

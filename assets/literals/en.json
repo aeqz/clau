@@ -1,1 +1,27 @@
-{}
+{
+  "loadKeysFile": "Load keys file",
+  "orCreateNewKeys": "or create new keys",
+  "passwordForOpening": "Password for opening",
+  "open": "Open",
+  "cancel": "Cancel",
+  "corruptedFile": "Corrupted file",
+  "wrongPassword": "Wrong password",
+  "loading": "Loading",
+  "saveKeys": "Save keys",
+  "closeKeys": "Close keys",
+  "newKey": "New key",
+  "addKey": "Add new key",
+  "closeKey": "Close key",
+  "deleteKey": "Delete key",
+  "name": "Name",
+  "url": "Url",
+  "user": "User",
+  "password": "Password",
+  "notes": "Notes",
+  "newPassword": "New password",
+  "confirmPassword": "Confirm password",
+  "save": "Save",
+  "saving": "Saving",
+  "paswordsDoNotMatch": "Passwords do not match",
+  "couldNotSaveFile": "Could not save file"
+}

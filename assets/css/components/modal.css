@@ -1,0 +1,17 @@
+*:has(> .modal)::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.modal {
+  background: #282828;
+  padding: var(--padding-m);
+  color: var(--color-foreground);
+  border-width: var(--border-width);
+  box-shadow: 0 6px 8px 0 rgba(255, 255, 255, 0.3);
+  border-color: var(--color-foreground);
+  border-radius: var(--border-radius-m);
+}

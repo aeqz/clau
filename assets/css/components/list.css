@@ -1,0 +1,54 @@
+.list {
+  margin: 0;
+  padding: 0;
+  border: solid;
+  border-radius: var(--border-radius-m);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: var(--color-foreground);
+  border-width: var(--border-width);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-foreground) transparent;
+}
+
+.list::-webkit-scrollbar {
+  width: 0.65em;
+}
+
+.list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.list::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  background-clip: padding-box;
+  border: 2px solid white;
+  background: var(--color-foreground);
+}
+
+.list li button {
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  color: var(--color-foreground);
+  background-color: var(--background-color);
+  padding: var(--padding-s) var(--padding-s);
+  transition: color var(--transition);
+}
+
+.list li button:focus,
+.list li button:hover {
+  color: var(--color-highlight);
+}
+
+.list li[data-selected] button {
+  color: var(--color-background);
+  transition: none;
+  background-color: var(--color-highlight);
+}

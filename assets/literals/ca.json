@@ -1,1 +1,27 @@
-{}
+{
+  "loadKeysFile": "Carregar arxiu amb claus",
+  "orCreateNewKeys": "o crear noves claus",
+  "passwordForOpening": "Contrasenya per a obrir",
+  "open": "Obrir",
+  "cancel": "Cancel·lar",
+  "corruptedFile": "Arxiu danyat",
+  "wrongPassword": "Contrasenya incorrecta",
+  "loading": "Carregant",
+  "saveKeys": "Guardar claus",
+  "closeKeys": "Tancar claus",
+  "newKey": "Nova clau",
+  "addKey": "Afegir nova clau",
+  "closeKey": "Tancar clau",
+  "deleteKey": "Esborrar clau",
+  "name": "Nom",
+  "url": "Url",
+  "user": "Usuari",
+  "password": "Contrasenya",
+  "notes": "Notes",
+  "newPassword": "Nova contrasenya",
+  "confirmPassword": "Confirmar contrasenya",
+  "save": "Guardar",
+  "saving": "Guardant",
+  "paswordsDoNotMatch": "Les contrasenyes no son iguals",
+  "couldNotSaveFile": "No s'ha pogut guardar l'arxiu"
+}

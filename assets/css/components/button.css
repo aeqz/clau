@@ -1,0 +1,14 @@
+.button {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-s) var(--padding-m);
+  border-radius: var(--border-radius-m);
+  color: var(--color-background);
+  background-color: var(--color-foreground);
+  transition: background-color var(--transition);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--color-highlight);
+}

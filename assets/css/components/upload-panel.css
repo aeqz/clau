@@ -1,0 +1,35 @@
+.upload-panel {
+  position: relative;
+  width: 16em;
+  border-width: var(--border-width);
+  border-radius: var(--border-radius-l);
+  border-style: dashed;
+  border-color: var(--color-foreground);
+  transition:
+    color var(--transition),
+    transform var(--transition);
+}
+
+.upload-panel:hover,
+.upload-panel[data-dragging-file],
+.upload-panel:has(input[type='file']:focus) {
+  transform: scale(1.05);
+  color: var(--color-highlight);
+  border-color: var(--color-highlight);
+}
+
+.upload-panel label {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-m);
+  padding: var(--padding-l);
+}
+
+.upload-panel input[type='file'] {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}

@@ -1,1 +1,27 @@
-{}
+{
+  "loadKeysFile": "Cargar fichero con claves",
+  "orCreateNewKeys": "o crear nuevas claves",
+  "passwordForOpening": "Contraseña para abrir",
+  "open": "Abrir",
+  "cancel": "Cancelar",
+  "corruptedFile": "Fichero dañado",
+  "wrongPassword": "Contraseña incorrecta",
+  "loading": "Cargando",
+  "saveKeys": "Guardar claves",
+  "closeKeys": "Cerrar claves",
+  "newKey": "Nueva clave",
+  "addKey": "Añadir nueva clave",
+  "closeKey": "Cerrar clave",
+  "deleteKey": "Borrar clave",
+  "name": "Nombre",
+  "url": "Url",
+  "user": "Usuario",
+  "password": "Contraseña",
+  "notes": "Notas",
+  "newPassword": "Nueva contraseña",
+  "confirmPassword": "Confirmar contraseña",
+  "save": "Guardar",
+  "saving": "Guardando",
+  "paswordsDoNotMatch": "Las contraseñas no coinciden",
+  "couldNotSaveFile": "No se ha podido guardar el fichero"
+}

@@ -1,0 +1,39 @@
+.form input[type='text'],
+.form input[type='password'],
+.form textarea {
+  width: 100%;
+}
+
+.form label:has(+ input[type='text']),
+.form label:has(+ input[type='password']),
+.form label:has(+ textarea) {
+  padding: var(--padding-s) 0;
+  min-width: 7.5em;
+}
+
+.form input[type='text'],
+.form input[type='password'],
+.form textarea {
+  border: none;
+  padding: var(--padding-s);
+  border-radius: var(--border-radius-m);
+  color: var(--color-background);
+  background: var(--color-foreground);
+}
+
+.form .horizontal:has(> label + input) {
+  align-items: flex-start;
+}
+
+.form textarea {
+  resize: none;
+  height: 6em;
+}
+
+.form p {
+  margin: 0;
+}
+
+.form div:has(> button) {
+  margin-top: auto;
+}

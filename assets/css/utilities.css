@@ -1,0 +1,45 @@
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-size {
+  height: 100%;
+  width: 100%;
+}
+
+.error {
+  color: var(--color-error);
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  min-height: 0;
+  min-width: 0;
+  gap: var(--space-s);
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+  gap: var(--space-s);
+}
+
+.start-align {
+  align-items: flex-start;
+}
+
+.end-align {
+  align-items: flex-end;
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+}
