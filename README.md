@@ -9,4 +9,10 @@ Requires `Node.js` to be installed. Then:
 ```sh
 # Install dependencies
 npm i
+
+# Run development server with debugger and hot reload
+npm run dev
+
+# Generate static assets in the dist directory
+npm run build
 ```

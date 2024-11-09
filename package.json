@@ -4,10 +4,14 @@
   "author": "Adrián Enríquez Ballester",
   "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "clean": "git clean -dfX",
     "prettier:fmt": "prettier . --write"
   },
   "devDependencies": {
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "vite": "^6.0.6"
   }
 }
