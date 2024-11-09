@@ -8,16 +8,20 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "git clean -dfX",
+    "elm:check": "elm make src/Main.elm --output=/dev/null",
     "ts:check": "tsc",
     "ts:test": "vitest run --dom",
     "prettier:fmt": "prettier . --write"
   },
   "devDependencies": {
+    "@types/elm": "^0.19.3",
     "autoprefixer": "^10.4.20",
+    "elm": "^0.19.1-6",
     "happy-dom": "^16.0.1",
     "prettier": "^3.4.2",
     "typescript": "^5.7.2",
     "vite": "^6.0.6",
+    "vite-plugin-elm": "^3.0.1",
     "vite-plugin-favicons-inject": "^2.2.0",
     "vitest": "^2.1.8"
   },
