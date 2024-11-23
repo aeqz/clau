@@ -11,8 +11,12 @@
     "prettier:fmt": "prettier . --write"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "prettier": "^3.4.2",
     "vite": "^6.0.6",
     "vite-plugin-favicons-inject": "^2.2.0"
+  },
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
   }
 }
