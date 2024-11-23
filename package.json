@@ -4,7 +4,10 @@
   "author": "Adrián Enríquez Ballester",
   "type": "module",
   "scripts": {
-    "clean": "git clean -dfX"
+    "clean": "git clean -dfX",
+    "prettier:fmt": "prettier . --write"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
 }
