@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
+import faviconsInjectPlugin from 'vite-plugin-favicons-inject'
 
 export default defineConfig({
-  plugins: [],
+  plugins: [faviconsInjectPlugin('./assets/logo.svg')],
 })
